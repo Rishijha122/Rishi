@@ -1,0 +1,46 @@
+section{
+    height: 300px;
+    width: 300px;
+    margin: 40px auto;
+    position: relative;
+    transition: 2s;
+    transform-style: preserve-3d;
+
+}
+body{
+    perspective: 900px;
+
+}
+section:hover
+{
+    transform: rotateY(180deg);
+
+
+}
+div{
+    height: 100%;
+    width: 100%;
+}
+.one{
+    
+    background-color: blue;
+
+
+}
+.two{
+
+    background-color: aquamarine;
+    transform: rotateY(180deg);
+
+}
+.one,.two
+{
+    position: absolute;
+    backface-visibility: hidden;
+    box-shadow: inset 0 0 50px rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color: white;
+}

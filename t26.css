@@ -1,0 +1,19 @@
+.parent
+{
+    height: 800px;
+    width: 80vw;
+    border: 2px solid brown;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-items: center;
+    
+
+}
+div{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+}
